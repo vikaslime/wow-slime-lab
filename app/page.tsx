@@ -30,7 +30,7 @@ export default function Home() {
 
         <div className="videoCard">
           <video
-            src="/slime-video.mp4"
+            src="/Дизайн без названия.mp4"
             autoPlay
             muted
             loop
