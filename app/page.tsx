@@ -23,9 +23,9 @@ export default function Home() {
 
           <button>🚀 ХОЧУ УЧАСТВОВАТЬ</button>
 
-          <div className="proof">
-            ⭐⭐⭐⭐⭐ Авторский челлендж для детей, которые любят творчество и эксперименты
-          </div>
+        <div className="proof">
+  ⭐⭐⭐⭐⭐ Более 100 детей уже создали свои первые WOW-слаймы
+</div>
         </div>
 
         <div className="videoCard">
@@ -79,19 +79,17 @@ export default function Home() {
         </div>
 
         <div className="listGrid">
-          <div>✔ Детям 7–12 лет</div>
-          <div>✔ Тем, кто любит творчество</div>
-          <div>✔ Любителям слаймов и блёсток</div>
-          <div>✔ Детям, которые хотят делать всё сами</div>
-          <div>✔ Родителям, которые ищут занятие дома</div>
-          <div>✔ Тем, кто любит челленджи и награды</div>
-        </div>
+      <div>✅ Детям 7–12 лет</div>
+<div>✅ Любителям творчества и экспериментов</div>
+<div>✅ Тем, кто любит создавать своими руками</div>
+<div>✅ Детям, которым нравятся слаймы и блёстки</div>
+<div>✅ Родителям, которые ищут полезное занятие дома</div>
+<div>✅ Тем, кто любит получать награды и дипломы</div>
       </section>
 
       <section className="section whiteSection">
         <div className="sectionHeader">
-          
-          <h2>Что внутри</h2>
+          <h2>Что получает ребёнок?</h2>
         </div>
 
         <div className="cardsGrid">
@@ -126,7 +124,21 @@ export default function Home() {
           <div>👨‍👩‍👧 Не требует постоянной помощи взрослых</div>
         </div>
       </section>
+<section className="section whiteSection">
+  <div className="sectionHeader">
+    <h2>Что понадобится для участия?</h2>
+    <p>Большинство материалов уже есть дома.</p>
+  </div>
 
+  <div className="cardsGrid">
+    <div className="card">🧴 Клей ПВА</div>
+    <div className="card">🧼 Шампунь</div>
+    <div className="card">✨ Блёстки и украшения</div>
+    <div className="card">🥣 Миска и ложка</div>
+    <div className="card">🧂 Сода</div>
+    <div className="card">😊 Хорошее настроение</div>
+  </div>
+</section>
       <section className="section whiteSection">
         <div className="sectionHeader">
           <p className="label">FAQ</p>
@@ -158,7 +170,7 @@ export default function Home() {
 
       <section className="finalCta">
         <h2>Готовы создать свой первый WOW-слайм?</h2>
-        <p>3 дня творчества, экспериментов и ярких эмоций.</p>
+       <p>Создай свои первые WOW-слаймы уже сегодня.</p>
         <button>🚀 ПРИСОЕДИНИТЬСЯ К WOW SLIME LAB</button>
       </section>
     </main>
