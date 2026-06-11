@@ -74,7 +74,7 @@ export default function Home() {
 
       <section className="section neonSection">
         <div className="sectionHeader">
-          <p className="label">Для кого</p>
+        
           <h2>Кому подойдёт WOW Slime Lab?</h2>
         </div>
 
