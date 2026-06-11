@@ -73,19 +73,19 @@ export default function Home() {
 </section>
 
       <section className="section neonSection">
-        <div className="sectionHeader">
-        
-          <h2>Кому подойдёт WOW Slime Lab?</h2>
-        </div>
+  <div className="sectionHeader">
+    <h2>Кому подойдёт WOW Slime Lab?</h2>
+  </div>
 
-        <div className="listGrid">
-      <div>✅ Детям 7–12 лет</div>
-<div>✅ Любителям творчества и экспериментов</div>
-<div>✅ Тем, кто любит создавать своими руками</div>
-<div>✅ Детям, которым нравятся слаймы и блёстки</div>
-<div>✅ Родителям, которые ищут полезное занятие дома</div>
-<div>✅ Тем, кто любит получать награды и дипломы</div>
-      </section>
+  <div className="listGrid">
+    <div>✅ Детям 7–12 лет</div>
+    <div>✅ Любителям творчества и экспериментов</div>
+    <div>✅ Тем, кто любит создавать своими руками</div>
+    <div>✅ Детям, которым нравятся слаймы и блёстки</div>
+    <div>✅ Родителям, которые ищут полезное занятие дома</div>
+    <div>✅ Тем, кто любит получать награды и дипломы</div>
+  </div>
+</section>
 
       <section className="section whiteSection">
         <div className="sectionHeader">
