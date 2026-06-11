@@ -40,45 +40,37 @@ export default function Home() {
       </section>
 
       <section className="section whiteSection">
-        <div className="sectionHeader">
-          <p className="label">3 дня — 3 слайма</p>
-          <h2>Что ребёнок создаст за 3 дня?</h2>
-          <p>
-            Каждый день — новая лабораторная миссия, новый рецепт и новый
-            красивый результат своими руками.
-          </p>
-        </div>
+  <div className="sectionHeader">
+    <h2>Что ребёнок создаст за 3 дня?</h2>
+    <p>
+      Каждый день — новая лабораторная миссия, новый рецепт и новый
+      красивый результат своими руками.
+    </p>
+  </div>
 
-        <div className="cardsGrid">
-          <div className="card">
-            <div className="icon">☁️</div>
-            <p className="cardLabel">День 1</p>
-            <h3>Cloud Slime</h3>
-            <p>Мягкий, воздушный и приятный на ощупь слайм.</p>
-          </div>
+  <div className="cardsGrid threeCards">
+    <div className="card">
+      <div className="icon">☁️</div>
+      <p className="cardLabel">День 1</p>
+      <h3>Cloud Slime</h3>
+      <p>Мягкий, воздушный и приятный на ощупь слайм.</p>
+    </div>
 
-          <div className="card">
-            <div className="icon">✨</div>
-            <p className="cardLabel">День 2</p>
-            <h3>Glitter Slime</h3>
-            <p>Яркий слайм с блёстками и настоящим WOW-эффектом.</p>
-          </div>
+    <div className="card">
+      <div className="icon">✨</div>
+      <p className="cardLabel">День 2</p>
+      <h3>Glitter Slime</h3>
+      <p>Яркий слайм с блёстками и настоящим WOW-эффектом.</p>
+    </div>
 
-          <div className="card">
-            <div className="icon">🌌</div>
-            <p className="cardLabel">День 3</p>
-            <h3>Galaxy Slime</h3>
-            <p>Космический слайм с фантастическими цветами.</p>
-          </div>
-
-          <div className="card">
-            <div className="icon">🏆</div>
-            <p className="cardLabel">Финал</p>
-            <h3>Диплом Слаймолога</h3>
-            <p>После прохождения челленджа ребёнок получает диплом участника.</p>
-          </div>
-        </div>
-      </section>
+    <div className="card">
+      <div className="icon">🌌</div>
+      <p className="cardLabel">День 3</p>
+      <h3>Galaxy Slime</h3>
+      <p>Космический слайм с фантастическими цветами.</p>
+    </div>
+  </div>
+</section>
 
       <section className="section neonSection">
         <div className="sectionHeader">
