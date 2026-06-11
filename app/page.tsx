@@ -90,8 +90,8 @@ export default function Home() {
 
       <section className="section whiteSection">
         <div className="sectionHeader">
-          <p className="label">Что внутри</p>
-          <h2>Всё необходимое для старта</h2>
+          
+          <h2>Что внутри</h2>
         </div>
 
         <div className="cardsGrid">
