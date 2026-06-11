@@ -67,9 +67,12 @@ h2 {
 }
 
 p {
-  max-width: 620px;
-  font-size: 21px;
+  font-size: 20px;
   line-height: 1.5;
+}
+
+.heroText p {
+  max-width: 620px;
   margin: 0 0 28px;
 }
 
@@ -124,6 +127,143 @@ button {
   object-fit: cover;
 }
 
+.section {
+  padding: 90px 24px;
+}
+
+.whiteSection {
+  background: #fff8ff;
+  color: #180026;
+}
+
+.neonSection {
+  background: linear-gradient(135deg, #00aeef, #ff0090, #8a2be2);
+  color: white;
+}
+
+.sectionHeader {
+  max-width: 850px;
+  margin: 0 auto 48px;
+  text-align: center;
+}
+
+.sectionHeader .label {
+  display: inline-block;
+  margin: 0 0 14px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: rgba(255, 0, 144, 0.12);
+  color: #ff0090;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.neonSection .label {
+  background: rgba(255, 255, 255, 0.18);
+  color: white;
+}
+
+.cardsGrid {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+
+.card {
+  padding: 28px;
+  border-radius: 28px;
+  background: white;
+  color: #180026;
+  box-shadow: 0 18px 50px rgba(40, 0, 80, 0.12);
+}
+
+.card .icon {
+  font-size: 42px;
+  margin-bottom: 14px;
+}
+
+.cardLabel {
+  margin: 0 0 8px;
+  color: #ff0090;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  font-size: 24px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 17px;
+  color: #4a3858;
+}
+
+.listGrid {
+  max-width: 1050px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.listGrid div {
+  padding: 22px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(12px);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.faq {
+  max-width: 850px;
+  margin: 0 auto;
+  display: grid;
+  gap: 16px;
+}
+
+.faq div {
+  background: white;
+  color: #180026;
+  border-radius: 24px;
+  padding: 24px 28px;
+  box-shadow: 0 18px 45px rgba(40, 0, 80, 0.1);
+}
+
+.faq h3 {
+  margin: 0 0 8px;
+  font-size: 22px;
+}
+
+.faq p {
+  margin: 0;
+  color: #4a3858;
+  font-size: 17px;
+}
+
+.finalCta {
+  padding: 100px 24px;
+  text-align: center;
+  background:
+    radial-gradient(circle at 20% 20%, #00aeef 0, transparent 30%),
+    radial-gradient(circle at 80% 20%, #ff0090 0, transparent 30%),
+    linear-gradient(135deg, #ff0090, #8a2be2);
+}
+
+.finalCta h2 {
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.finalCta p {
+  margin-bottom: 28px;
+}
+
 @media (max-width: 900px) {
   .hero {
     grid-template-columns: 1fr;
@@ -132,7 +272,7 @@ button {
     text-align: center;
   }
 
-  p {
+  .heroText p {
     margin-left: auto;
     margin-right: auto;
     font-size: 18px;
@@ -145,5 +285,21 @@ button {
   .videoCard {
     max-width: 360px;
     margin: 0 auto;
+  }
+
+  .cardsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .listGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .section {
+    padding: 64px 18px;
+  }
+
+  h1 {
+    letter-spacing: -2px;
   }
 }
