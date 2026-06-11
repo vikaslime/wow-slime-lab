@@ -100,8 +100,15 @@ export default function Home() {
           <div className="card">🎁 <h3>Бонусный рецепт</h3></div>
           <div className="card">🏆 <h3>Диплом участника</h3></div>
           <div className="card">⭐ <h3>Игровые задания</h3></div>
-          <div className="card">📱 <h3>Доступ сразу после оплаты</h3></div>
-        </div>
+          <div className="bonusCard">
+  <div className="bonusIcon">📱</div>
+  <div>
+    <h3>Доступ сразу после оплаты</h3>
+    <p>
+      Сразу после оплаты вы получите доступ к урокам и сможете начать создавать первый слайм уже сегодня.
+    </p>
+  </div>
+</div>
       </section>
 
       <section className="section neonSection">
