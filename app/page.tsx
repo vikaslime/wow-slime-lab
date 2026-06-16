@@ -21,7 +21,13 @@ export default function Home() {
             <span>🚀 Доступ сразу</span>
           </div>
 
-          <button>🚀 ХОЧУ УЧАСТВОВАТЬ</button>
+         <a
+  href="https://secure.wayforpay.com/button/b11a050ba63eb"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button>🚀 ХОЧУ УЧАСТВОВАТЬ</button>
+</a>
 
         <div className="proof">
   ⭐⭐⭐⭐⭐ Более 100 детей уже создали свои первые WOW-слаймы
@@ -171,7 +177,15 @@ export default function Home() {
       <section className="finalCta">
         <h2>Готовы создать свой первый WOW-слайм?</h2>
        <p>Создай свои первые WOW-слаймы уже сегодня.</p>
-        <button>🚀 ПРИСОЕДИНИТЬСЯ К WOW SLIME LAB</button>
+      <a
+  href="https://secure.wayforpay.com/button/b11a050ba63eb"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button>
+    🚀 ПРИСОЕДИНИТЬСЯ К WOW SLIME LAB
+  </button>
+</a>
       </section>
     </main>
   );
